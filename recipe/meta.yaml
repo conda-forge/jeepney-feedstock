@@ -1,6 +1,6 @@
 {% set name = "jeepney" %}
-{% set version = "0.4.2" %}
-{% set sha256 = "0ba6d8c597e9bef1ebd18aaec595f942a264e25c1a48f164d46120eacaa2e9bb" %}
+{% set version = "0.4.3" %}
+{% set sha256 = "3479b861cc2b6407de5188695fa1a8d57e5072d7059322469b62628869b8e36e" %}
 
 package:
   name: {{ name|lower }}
@@ -32,7 +32,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Pure Python DBus interface'
+  summary: Pure Python DBus interface
   description: |
     This is a low-level, pure Python DBus protocol client. It has
     an I/O-free core, and integration modules for different event
