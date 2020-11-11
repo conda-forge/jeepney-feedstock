@@ -1,6 +1,6 @@
 {% set name = "jeepney" %}
-{% set version = "0.4.3" %}
-{% set sha256 = "3479b861cc2b6407de5188695fa1a8d57e5072d7059322469b62628869b8e36e" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "2531d17ccfb3485d4eaee03c1a19a75f28b3ac0fbb5a1b683b77b820e5b0f509" %}
 
 package:
   name: {{ name|lower }}
