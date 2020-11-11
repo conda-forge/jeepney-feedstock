@@ -5,9 +5,13 @@ Home: https://gitlab.com/takluyver/jeepney
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jeepney-feedstock/blob/master/LICENSE.txt)
 
 Summary: Pure Python DBus interface
+
+Development: https://gitlab.com/takluyver/jeepney
+
+Documentation: https://jeepney.readthedocs.io/en/latest/
 
 This is a low-level, pure Python DBus protocol client. It has
 an I/O-free core, and integration modules for different event
