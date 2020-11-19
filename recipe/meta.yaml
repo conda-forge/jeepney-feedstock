@@ -1,6 +1,6 @@
 {% set name = "jeepney" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "2531d17ccfb3485d4eaee03c1a19a75f28b3ac0fbb5a1b683b77b820e5b0f509" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "7d59b6622675ca9e993a6bd38de845051d315f8b0c72cca3aef733a20b648657" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: flit install --deps none
 
 requirements:
-  build:
+  host:
     - python >=3.5
     - flit
   run:
