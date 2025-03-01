@@ -14,16 +14,19 @@ source:
 build:
   number: 0
   noarch: python
-  script: flit install --deps none
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-build-isolation -vv"
 
 requirements:
   host:
-    - python >=3.7
-    - flit
+    - python {{ python_min }}
+    - pip
+    - flit-core >=3.11
   run:
-    - python >=3.7
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - jeepney
 
